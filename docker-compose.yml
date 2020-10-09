@@ -1,0 +1,17 @@
+version: "3"
+services:
+
+  website-php5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ztj1993/website-php5:latest
+    hostname: website-php5
+    container_name: website-php5
+    network_mode: custom
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    expose:
+      - 80/tcp
+    ports:
+      - 80/tcp
