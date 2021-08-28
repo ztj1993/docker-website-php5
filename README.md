@@ -13,6 +13,11 @@ docker run -ti --rm ztj1993/website-php5
 
 ## 更新日志
 
+> 2021-08-28
+
+- 年度更新
+- 移除 entrypoint 入口
+
 > 2020-10-10
 
 - 重构项目
